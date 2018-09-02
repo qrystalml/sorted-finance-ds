@@ -15,7 +15,7 @@ def main():
 
     if system_major != required_major:
         raise TypeError(
-            "This project requires Python {}. Found: Python {}".format(
+            "This project requires Python version {}. Found: Python version {}".format(
                 required_major, sys.version))
     else:
         print(">>> Development environment passes all tests!")
